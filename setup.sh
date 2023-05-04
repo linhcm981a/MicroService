@@ -19,9 +19,30 @@ fi
 
 
 printf "Installing microservices dependencies...\n"
-cd ./back-end
+cd ./back-end/gateway
 npm install
 printf "Completed.\n\n"
+
+printf "Installing microservices dependencies...\n"
+cd ./back-end/orderService
+npm install
+printf "Completed.\n\n"
+
+printf "Installing microservices dependencies...\n"
+cd ./back-end/ProductService
+npm install
+printf "Completed.\n\n"
+
+printf "Installing microservices dependencies...\n"
+cd ./back-end/ratingService
+npm install
+printf "Completed.\n\n"
+
+printf "Installing microservices dependencies...\n"
+cd ./back-end/userService
+npm install
+printf "Completed.\n\n"
+
 
 printf "Installing React app dependencies...\n"
 cd ./frontend
