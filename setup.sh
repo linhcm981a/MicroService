@@ -19,12 +19,12 @@ fi
 
 
 printf "Installing microservices dependencies...\n"
-cd ../back-end
+cd ./back-end
 npm install
 printf "Completed.\n\n"
 
 printf "Installing React app dependencies...\n"
-cd ../frontend
+cd ./frontend
 npm install
 printf "Completed.\n\n"
 
