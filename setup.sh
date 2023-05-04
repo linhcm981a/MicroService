@@ -18,27 +18,27 @@ if [ ! -z "$CLOUD_SHELL" ]; then
 fi
 
 
-printf "Installing microservices dependencies...\n"
+printf "Installing gateway dependencies...\n"
 cd ./back-end/gateway
 npm install
 printf "Completed.\n\n"
 
-printf "Installing microservices dependencies...\n"
+printf "Installing orderService  dependencies...\n"
 cd ./back-end/orderService
 npm install
 printf "Completed.\n\n"
 
-printf "Installing microservices dependencies...\n"
+printf "Installing ProductService dependencies...\n"
 cd ./back-end/ProductService
 npm install
 printf "Completed.\n\n"
 
-printf "Installing microservices dependencies...\n"
+printf "Installing ratingService dependencies...\n"
 cd ./back-end/ratingService
 npm install
 printf "Completed.\n\n"
 
-printf "Installing microservices dependencies...\n"
+printf "Installing userService dependencies...\n"
 cd ./back-end/userService
 npm install
 printf "Completed.\n\n"
