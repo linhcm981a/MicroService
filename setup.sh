@@ -29,7 +29,7 @@ npm install
 printf "Completed.\n\n"
 cd ..
 printf "Installing ProductService dependencies...\n"
-cd ./ProductService
+cd ./productService
 npm install
 printf "Completed.\n\n"
 cd ..
