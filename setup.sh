@@ -19,7 +19,7 @@ fi
 
 
 printf "Installing microservices dependencies...\n"
-cd ../backend
+cd ../back-end
 npm install
 printf "Completed.\n\n"
 
