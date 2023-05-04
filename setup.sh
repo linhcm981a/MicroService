@@ -48,12 +48,6 @@ printf "Installing React app dependencies...\n"
 cd ./frontend
 npm install
 printf "Completed.\n\n"
-cd ..
-printf "Building React app and placing into sub projects...\n"
-npm run build
-printf "Completed.\n\n"
-
-printf "Setup completed successfully!\n"
 
 if [ ! -z "$CLOUD_SHELL" ]; then
   printf "\n"
