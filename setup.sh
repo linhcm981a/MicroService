@@ -22,33 +22,33 @@ printf "Installing gateway dependencies...\n"
 cd ./back-end/gateway
 npm install
 printf "Completed.\n\n"
-
+cd  ..
 printf "Installing orderService  dependencies...\n"
-cd ./back-end/orderService
+cd ./orderService
 npm install
 printf "Completed.\n\n"
-
+cd ..
 printf "Installing ProductService dependencies...\n"
-cd ./back-end/ProductService
+cd ./ProductService
 npm install
 printf "Completed.\n\n"
-
+cd ..
 printf "Installing ratingService dependencies...\n"
-cd ./back-end/ratingService
+cd ./ratingService
 npm install
 printf "Completed.\n\n"
-
+cd ..
 printf "Installing userService dependencies...\n"
-cd ./back-end/userService
+cd ./userService
 npm install
 printf "Completed.\n\n"
-
-
+cd ..
+cd ..
 printf "Installing React app dependencies...\n"
 cd ./frontend
 npm install
 printf "Completed.\n\n"
-
+cd ..
 printf "Building React app and placing into sub projects...\n"
 npm run build
 printf "Completed.\n\n"
