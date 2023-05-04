@@ -24,7 +24,7 @@ npm install
 printf "Completed.\n\n"
 
 printf "Installing React app dependencies...\n"
-cd ../PhoneStore
+cd ../frontend
 npm install
 printf "Completed.\n\n"
 
